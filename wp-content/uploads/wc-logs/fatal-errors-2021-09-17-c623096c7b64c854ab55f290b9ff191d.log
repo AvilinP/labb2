@@ -1,0 +1,19 @@
+2021-09-17T09:18:33+00:00 CRITICAL Uncaught Error: Failed opening required 'inc/class-storefront.php' (include_path='.:/Applications/XAMPP/xamppfiles/lib/php') in /Applications/XAMPP/xamppfiles/htdocs/labb2_Avilin/wp-content/themes/storefront-child/functions.php:27
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/labb2_Avilin/wp-settings.php(546): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/labb2_Avilin/wp-config.php(95): require_once('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/labb2_Avilin/wp-load.php(50): require_once('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/labb2_Avilin/wp-blog-header.php(13): require_once('/Applications/X...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/labb2_Avilin/index.php(17): require('/Applications/X...')
+#5 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/labb2_Avilin/wp-content/themes/storefront-child/functions.php on line 27
+
+2021-09-17T09:18:47+00:00 CRITICAL Uncaught Error: Failed opening required 'inc/class-storefront.php' (include_path='.:/Applications/XAMPP/xamppfiles/lib/php') in /Applications/XAMPP/xamppfiles/htdocs/labb2_Avilin/wp-content/themes/storefront-child/functions.php:27
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/labb2_Avilin/wp-settings.php(546): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/labb2_Avilin/wp-config.php(95): require_once('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/labb2_Avilin/wp-load.php(50): require_once('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/labb2_Avilin/wp-admin/admin-ajax.php(22): require_once('/Applications/X...')
+#4 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/labb2_Avilin/wp-content/themes/storefront-child/functions.php on line 27
+
