@@ -1,2 +1,4 @@
 2021-09-30T12:06:59+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in /Applications/XAMPP/xamppfiles/htdocs/labb2_Avilin/wp-content/themes/storefront-child/archive-stores.php on line 51
 
+2021-09-30T12:28:30+00:00 CRITICAL Unmatched '}' in /Applications/XAMPP/xamppfiles/htdocs/labb2_Avilin/wp-content/themes/storefront-child/functions.php on line 23
+

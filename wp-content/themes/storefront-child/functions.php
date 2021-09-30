@@ -18,5 +18,10 @@ function custom_stores() {
    }
    
    add_action('init', 'custom_stores');
+
+   add_action('init','remove_product_text',10);
+    function remove_product_text() {
+        remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_meta', 40 );
+} 
    
 ?>
