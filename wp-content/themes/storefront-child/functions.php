@@ -4,6 +4,7 @@
 function custom_stores() {
     register_post_type('stores', [
     'public' => true,
+    'has_archive' => true,
     'show_in_rest' => true,
     'labels' => [
     'name' => 'Stores',
@@ -18,5 +19,4 @@ function custom_stores() {
    
    add_action('init', 'custom_stores');
    
-
 ?>
